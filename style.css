@@ -39,7 +39,7 @@ div div {
 	right: 50px;
 }
 
-.l_and, .r_ant {
+.l_ant, .r_ant {
 	width: 6px;
 	height: 50px;
 	position:absolute;
@@ -54,7 +54,7 @@ div div {
 
 .r_ant {
 	right: 50px;
-	-webkit-transform: rotate (30deg);
+	-webkit-transform: rotate(30deg);
 }
 
 .body {
@@ -97,13 +97,13 @@ div div {
 }
 
 .head:hover {
-	transform: rotate (-5deg) translate (-4px,-8px);
+	transform: rotate(-5deg) translate(-4px,-8px);
 }
 
 .l_arm:hover {
-	transform: rotate (15deg) translate (-14px,0);
+	transform: rotate(15deg) translate(-14px,0);
 }
 
 .r_arm:hover {
-	transform: rotate (-30deg) translate (30px,0);
+	transform: rotate(-30deg) translate(30px,0);
 }
